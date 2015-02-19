@@ -1,0 +1,17 @@
+{
+  "name": "Battery Saver Addon",
+  "description": "This add-on adds an icon to the QuickSettings area of Firefox OS",
+  "type": "certified",
+  "role": "addon",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "customizations": [
+    {
+      "filter": "^app://system.gaiamobile.org",
+      "css": ["/style.css"],
+      "scripts": ["/behavior.js"]
+    }
+  ]
+}
