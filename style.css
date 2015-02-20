@@ -1,6 +1,6 @@
 #quick-settings-battery-mode {
 }
 
-#quick-settings-battery-mode[data-enabled] {
+#quick-settings-battery-mode[data-enabled=true] {
   color: #008eab;
 }
